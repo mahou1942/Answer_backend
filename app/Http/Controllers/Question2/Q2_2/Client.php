@@ -3,14 +3,7 @@
 namespace App\Http\Controllers\Question2\Q2_2;
 
 use App\Http\Controllers\Controller;
-
-use App\Http\Controllers\Question2\Q2_2\{
-    Product, // 產品管理
-    Shopee,  // 蝦皮
-    Pchome,  // Pchome
-    Yahoo,   // 雅虎
-    Ruten    // 露天
-};
+use App\Http\Controllers\Question2\Q2_2\Product;
 
 class Client extends Controller
 {

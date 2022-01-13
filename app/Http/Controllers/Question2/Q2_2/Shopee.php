@@ -6,7 +6,7 @@ use App\Http\Controllers\Question2\Q2_2\Platform;
 class Shopee implements Platform
 {
     // 平台名字
-    public const name = 'Yahoo';
+    public const name = 'Shopee';
     // 最新產品消息
     private $news;
 

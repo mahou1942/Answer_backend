@@ -19,7 +19,8 @@
 
 2-2答
 *     路徑：App\Http\Controllers\Question2\Q2_2.php
-![](https://i.imgur.com/N3FKtno.gif)
+![](https://i.imgur.com/Bo9ueeK.gif)
+
 
 ---
 ### 程式架構設計（UML）
