@@ -30,7 +30,6 @@ class Answer2 extends Controller
             return 0;
         }
 
-        global $count;
         $this->count++;
         if ($n === 1) {
             return 1;
