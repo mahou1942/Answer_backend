@@ -119,10 +119,10 @@ class ShoppingCart extends Controller
         // 查找購物車是否存在商品
         // $index = array_search($pid, array_column($_SESSION['$productList'], 'pid'));
 
-        $index = CartItem::where('product_id', $pid)->get();
+        $exists = CartItem::where('product_id', $pid)->exists();
 
         // 如果購物車不存在這個商品，則退出
-        if ($index === false) {
+        if (!$exists) {
             return $this->apiResponse(6, false, '該商品不存在購物車');
         }
 
